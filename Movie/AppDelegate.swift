@@ -5,6 +5,7 @@
 //  Created by Mustafa on 21/06/2023.
 //
 
+
 import UIKit
 import CoreData
 
@@ -12,9 +13,11 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        
         return true
     }
 
