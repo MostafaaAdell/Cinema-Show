@@ -52,6 +52,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		459326422AFBF06C00F98746 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				45B16DF72A436B7D00EA59AD /* AppDelegate.swift */,
+				45B16DF92A436B7D00EA59AD /* SceneDelegate.swift */,
+				45B16E032A436B7F00EA59AD /* Assets.xcassets */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		459326432AFBF08600F98746 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45B16E052A436B7F00EA59AD /* LaunchScreen.storyboard */,
+				4593DEE92A448B0100773DEB /* MovieCell.swift */,
+				45B16DFD2A436B7D00EA59AD /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		459326442AFBF0B500F98746 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45AA17522A43A7A900ADC17D /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		459326452AFBF0C700F98746 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				45B16DFB2A436B7D00EA59AD /* ViewController.swift */,
+				45B52DBB2A47E27500753BF1 /* DetailsController.swift */,
+				45AFC0022A48C51300A8ED8C /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		45B16DEB2A436B7C00EA59AD = {
 			isa = PBXGroup;
 			children = (
@@ -73,16 +111,10 @@
 		45B16DF62A436B7D00EA59AD /* Movie */ = {
 			isa = PBXGroup;
 			children = (
-				45B16DF72A436B7D00EA59AD /* AppDelegate.swift */,
-				45B16DF92A436B7D00EA59AD /* SceneDelegate.swift */,
-				4593DEE92A448B0100773DEB /* MovieCell.swift */,
-				45B16DFB2A436B7D00EA59AD /* ViewController.swift */,
-				45B52DBB2A47E27500753BF1 /* DetailsController.swift */,
-				45AFC0022A48C51300A8ED8C /* LoginViewController.swift */,
-				45AA17522A43A7A900ADC17D /* Movie.swift */,
-				45B16DFD2A436B7D00EA59AD /* Main.storyboard */,
-				45B16E032A436B7F00EA59AD /* Assets.xcassets */,
-				45B16E052A436B7F00EA59AD /* LaunchScreen.storyboard */,
+				459326422AFBF06C00F98746 /* SupportFiles */,
+				459326442AFBF0B500F98746 /* Model */,
+				459326432AFBF08600F98746 /* View */,
+				459326452AFBF0C700F98746 /* Controller */,
 				45B16E082A436B7F00EA59AD /* Info.plist */,
 				45B16E002A436B7D00EA59AD /* Movie.xcdatamodeld */,
 			);
